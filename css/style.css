@@ -1,7 +1,13 @@
 
- * {
+ *, *::after, *::before {
     box-sizing: border-box;
     text-align: center;
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
   }
   
   body {
