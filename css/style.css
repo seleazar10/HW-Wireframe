@@ -1,5 +1,7 @@
 
  *, *::after, *::before {
+   margin: 0px;
+   padding: 0px;
     box-sizing: border-box;
     text-align: center;
   }
@@ -13,7 +15,7 @@
   body {
   
     background:rgb(165, 158, 158);
-  
+      
   }
   
   .main-part {
@@ -25,7 +27,11 @@
     padding: 20px;
     margin-bottom: 10px;
     color: #333;
-    background:rgb(240, 236, 236);
+    background: rgb(240, 236, 236);
+  }
+
+  header{
+    margin-top: 10px;
   }
   
 
@@ -33,10 +39,12 @@
   aside {
     background:rgb(240, 236, 236);
     float: left;
-    margin: 30px;
-    padding: 90px 70px;
-    border-style: solid;
-    border-color: rgb(165, 158, 158);
+    margin-bottom: 10px;
+    margin-left: 19px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    padding-left: 18%;
+    padding-right: 18%;
     
   }
 
@@ -44,12 +52,29 @@
 
     background:rgb(240, 236, 236);
     float: left;
-    margin: 30px;
-    padding: 90px 70px;
-    border-style: solid;
-    border-color: rgb(165, 158, 158);
+    padding: 10px 0;
+    
+    
+    
+  }
+  .section-article{
+    background-color: rgb(141, 137, 137);
+    padding: 10px;
+    margin: 10px;
+
+  }
+
+  h3, .last{
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 7px 200px;
     
   }
 
-
+  .first{
+    color: #fff;
+    margin-bottom: 15px;
   }
+
+
+
